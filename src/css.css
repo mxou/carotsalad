@@ -42,18 +42,17 @@ section div{
   position: absolute;
   position-anchor: --my-anchor;
   display: none;
-}
-
-section:hover>div{
-  position: absolute;
   background-color: #1e2901;
   width: 100px;
   padding: 10px;
   border-radius: 15px;
   color: white;
-  display: block;
   opacity: 1;
   @starting-style {
     opacity: 0;
   }
+}
+
+section:hover>div{
+  display: block;
 }
